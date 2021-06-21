@@ -13,7 +13,7 @@ pipeline {
      }
        stage('Deploy'){
          steps {
-         deploy adapters: [tomcat10(credentialsId: 'tomcat_tomjerry', url: 'http://ec2-54-145-165-198.compute-1.amazonaws.com:8090/')], contextPath: 'Null', war: '**/*.war'
+         deploy adapters: [tomcat10(credentialsId: 'deployer_deployer', url: 'http://ec2-54-145-165-198.compute-1.amazonaws.com:8090/')], contextPath: 'Null', war: '**/*.war'
          }
        }  
      }
