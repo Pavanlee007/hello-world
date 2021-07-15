@@ -1,3 +1,2 @@
 <h1> Hello !!! </h1>
-
-<h3> How are you doing?? </h3>
+<h2>  For practice purpose </h2>
